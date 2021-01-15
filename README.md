@@ -1,1 +1,3 @@
 # devops-project01
+
+This is my starting point of CI/CD project...
