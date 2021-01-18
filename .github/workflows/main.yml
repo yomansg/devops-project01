@@ -38,6 +38,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
+          image: yomansg/demo
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
